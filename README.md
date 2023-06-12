@@ -1,11 +1,11 @@
-About r-climate4r.climdex
-=========================
+About r-climate4r.climdex-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-climate4r.climdex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SantanderMetGroup/climate4R
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-climate4r.climdex-feedstock/blob/main/LICENSE.txt)
 
 Summary: A climate4R wrapper of the climdex.pcic package implementing ETCCDI Climate Indices <http://etccdi.pacificclimate.org/list_27_indices.shtml>.
 
