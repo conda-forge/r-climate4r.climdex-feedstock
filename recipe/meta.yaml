@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/SantanderMetGroup/climate4R.climdex/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: dce447218dc57730870c68af01291179acf9f4ae67a780cc3bea3a05a9dbbe51
+  sha256: d5b11259394ae0feb869f903a6acf3d35add8dbf281bb2fa11f5622cc9f9df9d
 
 build:
   merge_build_host: true  # [win]
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
